@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		C070CFBC2B2F79EE00479DA9 /* CoreLocationSetupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C070CFBB2B2F79EE00479DA9 /* CoreLocationSetupApp.swift */; };
-		C070CFBE2B2F79EE00479DA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C070CFBD2B2F79EE00479DA9 /* ContentView.swift */; };
+		C070CFBE2B2F79EE00479DA9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C070CFBD2B2F79EE00479DA9 /* MapView.swift */; };
 		C070CFC02B2F79F100479DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C070CFBF2B2F79F100479DA9 /* Assets.xcassets */; };
 		C070CFC32B2F79F100479DA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C070CFC22B2F79F100479DA9 /* Preview Assets.xcassets */; };
+		C070CFCC2B2F7A2700479DA9 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C070CFCB2B2F7A2700479DA9 /* AppViewModel.swift */; };
+		C070CFCE2B2F7AAE00479DA9 /* ReverseGeocodingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C070CFCD2B2F7AAE00479DA9 /* ReverseGeocodingResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C070CFB82B2F79EE00479DA9 /* CoreLocationSetup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreLocationSetup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C070CFBB2B2F79EE00479DA9 /* CoreLocationSetupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreLocationSetupApp.swift; sourceTree = "<group>"; };
-		C070CFBD2B2F79EE00479DA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C070CFBD2B2F79EE00479DA9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		C070CFBF2B2F79F100479DA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C070CFC22B2F79F100479DA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C070CFCB2B2F7A2700479DA9 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		C070CFCD2B2F7AAE00479DA9 /* ReverseGeocodingResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseGeocodingResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +56,11 @@
 			isa = PBXGroup;
 			children = (
 				C070CFBB2B2F79EE00479DA9 /* CoreLocationSetupApp.swift */,
-				C070CFBD2B2F79EE00479DA9 /* ContentView.swift */,
+				C070CFBD2B2F79EE00479DA9 /* MapView.swift */,
 				C070CFBF2B2F79F100479DA9 /* Assets.xcassets */,
 				C070CFC12B2F79F100479DA9 /* Preview Content */,
+				C070CFCB2B2F7A2700479DA9 /* AppViewModel.swift */,
+				C070CFCD2B2F7AAE00479DA9 /* ReverseGeocodingResponse.swift */,
 			);
 			path = CoreLocationSetup;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C070CFBE2B2F79EE00479DA9 /* ContentView.swift in Sources */,
+				C070CFBE2B2F79EE00479DA9 /* MapView.swift in Sources */,
 				C070CFBC2B2F79EE00479DA9 /* CoreLocationSetupApp.swift in Sources */,
+				C070CFCC2B2F7A2700479DA9 /* AppViewModel.swift in Sources */,
+				C070CFCE2B2F7AAE00479DA9 /* ReverseGeocodingResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +283,8 @@
 				DEVELOPMENT_TEAM = K9GS6P7ZKP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoreLocationSetup/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "need it";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +314,8 @@
 				DEVELOPMENT_TEAM = K9GS6P7ZKP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoreLocationSetup/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "need it";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
