@@ -74,13 +74,16 @@ final class MapViewModel : NSObject, ObservableObject, CLLocationManagerDelegate
 
     // Checks if location services are enabled and initializes CLLocationManager.
     func checkIfLocationServicesIsEnabled() {
-        if CLLocationManager.locationServicesEnabled() {
-            manager = CLLocationManager()
-            manager?.desiredAccuracy = kCLLocationAccuracyBest
-            manager!.delegate = self
-        } else {
-            print("Location services are not enabled. Please enable them.")
+        DispatchQueue.global().async {
+            if CLLocationManager.locationServicesEnabled() {
+                self.manager = CLLocationManager()
+                self.manager?.desiredAccuracy = kCLLocationAccuracyBest
+                self.manager!.delegate = self
+            } else {
+                print("Location services are not enabled. Please enable them.")
+            }
         }
+        
     }
     
     // CLLocationManagerDelegate method to handle authorization changes.
