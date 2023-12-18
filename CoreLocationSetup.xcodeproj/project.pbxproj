@@ -11,7 +11,6 @@
 		C070CFBE2B2F79EE00479DA9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C070CFBD2B2F79EE00479DA9 /* MapView.swift */; };
 		C070CFC02B2F79F100479DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C070CFBF2B2F79F100479DA9 /* Assets.xcassets */; };
 		C070CFC32B2F79F100479DA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C070CFC22B2F79F100479DA9 /* Preview Assets.xcassets */; };
-		C070CFCC2B2F7A2700479DA9 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C070CFCB2B2F7A2700479DA9 /* AppViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +19,6 @@
 		C070CFBD2B2F79EE00479DA9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		C070CFBF2B2F79F100479DA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C070CFC22B2F79F100479DA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C070CFCB2B2F7A2700479DA9 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +55,6 @@
 				C070CFBD2B2F79EE00479DA9 /* MapView.swift */,
 				C070CFBF2B2F79F100479DA9 /* Assets.xcassets */,
 				C070CFC12B2F79F100479DA9 /* Preview Content */,
-				C070CFCB2B2F7A2700479DA9 /* AppViewModel.swift */,
 			);
 			path = CoreLocationSetup;
 			sourceTree = "<group>";
@@ -142,7 +139,6 @@
 			files = (
 				C070CFBE2B2F79EE00479DA9 /* MapView.swift in Sources */,
 				C070CFBC2B2F79EE00479DA9 /* CoreLocationSetupApp.swift in Sources */,
-				C070CFCC2B2F7A2700479DA9 /* AppViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +276,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CoreLocationSetup/Info.plist;
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "need it";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,7 +307,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CoreLocationSetup/Info.plist;
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "need it";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
