@@ -12,7 +12,6 @@
 		C070CFC02B2F79F100479DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C070CFBF2B2F79F100479DA9 /* Assets.xcassets */; };
 		C070CFC32B2F79F100479DA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C070CFC22B2F79F100479DA9 /* Preview Assets.xcassets */; };
 		C070CFCC2B2F7A2700479DA9 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C070CFCB2B2F7A2700479DA9 /* AppViewModel.swift */; };
-		C070CFCE2B2F7AAE00479DA9 /* ReverseGeocodingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C070CFCD2B2F7AAE00479DA9 /* ReverseGeocodingResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +21,6 @@
 		C070CFBF2B2F79F100479DA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C070CFC22B2F79F100479DA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C070CFCB2B2F7A2700479DA9 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
-		C070CFCD2B2F7AAE00479DA9 /* ReverseGeocodingResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseGeocodingResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +58,6 @@
 				C070CFBF2B2F79F100479DA9 /* Assets.xcassets */,
 				C070CFC12B2F79F100479DA9 /* Preview Content */,
 				C070CFCB2B2F7A2700479DA9 /* AppViewModel.swift */,
-				C070CFCD2B2F7AAE00479DA9 /* ReverseGeocodingResponse.swift */,
 			);
 			path = CoreLocationSetup;
 			sourceTree = "<group>";
@@ -146,7 +143,6 @@
 				C070CFBE2B2F79EE00479DA9 /* MapView.swift in Sources */,
 				C070CFBC2B2F79EE00479DA9 /* CoreLocationSetupApp.swift in Sources */,
 				C070CFCC2B2F7A2700479DA9 /* AppViewModel.swift in Sources */,
-				C070CFCE2B2F7AAE00479DA9 /* ReverseGeocodingResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
